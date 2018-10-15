@@ -133,10 +133,10 @@
 				var link = document.querySelector('link[rel="import"]');
 		
 				// Clone the <template> in the import.
-				var navlinks = link.import.navlinks;
+				var navlinks = link.import.document;
 				var clone = document.importNode(navlinks.content, true);
 		
-				document.querySelector('#container').appendChild(clone);
+				document.querySelector('header').appendChild(clone);
 			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
