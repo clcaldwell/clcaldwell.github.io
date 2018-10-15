@@ -128,6 +128,16 @@
 			</div>
 
 		<!-- Scripts -->
+			<!-- Load imports -->
+			<script>
+				var link = document.querySelector('link[rel="import"]');
+		
+				// Clone the <template> in the import.
+				var template = link.import.querySelector('template');
+				var clone = document.importNode(template.content, true);
+		
+				document.querySelector('#container').appendChild(clone);
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
