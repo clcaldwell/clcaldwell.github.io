@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="import" href="navlinks.html">
 	</head>
 	<body class="single is-preload">
 
@@ -19,7 +20,6 @@
 				<!-- Header -->
 					<header id="header">
 						<h1><a href="index.html">Coby Caldwell</a></h1>
-						<link rel="import" href="navlinks.html">
 						<nav class="main">
 							<ul>
 								<li class="search">
@@ -128,16 +128,6 @@
 			</div>
 
 		<!-- Scripts -->
-			<!-- Load imports -->
-			<script>
-				var link = document.querySelector('link[rel="import"]');
-		
-				// Clone the <template> in the import.
-				var navlinks = link.import.document;
-				var clone = document.importNode(navlinks.content, true);
-		
-				document.querySelector('header').appendChild(clone);
-			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

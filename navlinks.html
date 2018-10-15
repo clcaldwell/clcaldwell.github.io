@@ -6,3 +6,11 @@
         <li><a href="about.html">About Me</a></li>
     </ul>
 </nav>
+
+<script>
+  var me = document.currentScript.ownerDocument;
+  var post = me.querySelector('nav');
+
+  var container = document.querySelector('header');
+  container.appendChild(post.cloneNode(true));
+</script>
