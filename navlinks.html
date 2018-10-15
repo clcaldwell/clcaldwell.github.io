@@ -1,4 +1,4 @@
-<nav class="links">
+<nav class="links" id="navlinks">
     <ul>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="blog.html">Blog</a></li>
@@ -9,7 +9,7 @@
 
 <script>
   var me = document.currentScript.ownerDocument;
-  var post = me.querySelector('nav');
+  var post = me.getElementById('navlinks')
 
   var container = document.querySelector('header');
   container.appendChild(post.cloneNode(true));
