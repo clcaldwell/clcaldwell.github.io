@@ -13,7 +13,7 @@
 	</head>
 	<body class="single is-preload">
 
-	<?php include 'menu_template.php';?>
+	<?php include 'menu.html';?>
 
 				<!-- Main -->
 					<div id="main">
@@ -24,10 +24,6 @@
 									<div class="title">
 										<h2><a href="#">Magna sed adipiscing</a></h2>
 										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-									</div>
-									<div class="meta">
-										<time class="published" datetime="2015-11-01">November 1, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
 								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>

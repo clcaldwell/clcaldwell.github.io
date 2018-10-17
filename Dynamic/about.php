@@ -13,7 +13,7 @@
 	</head>
 	<body class="single is-preload">
 
-	<?php include 'menu_template.php';?>
+	<?php include 'menu.html';?>
 
 				<!-- Main -->
 					<div id="main">
