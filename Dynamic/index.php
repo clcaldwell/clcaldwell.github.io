@@ -13,77 +13,8 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Coby Caldwell</a></h1>
-						<?php include 'navlinks.html';?>
-						<nav class="main">
-							<ul>
-								<li class="search">
-									<a class="fa-search" href="#search">Search</a>
-									<form id="search" method="get" action="#">
-										<input type="text" name="query" placeholder="Search" />
-									</form>
-								</li>
-								<li class="menu">
-									<a class="fa-bars" href="#menu">Menu</a>
-								</li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Menu -->
-					<section id="menu">
-
-						<!-- Search -->
-							<section>
-								<form class="search" method="get" action="#">
-									<input type="text" name="query" placeholder="Search" />
-								</form>
-							</section>
-
-						<!-- Links -->
-						<section>
-							<ul class="links">
-								<li>
-									<a href="projects.html">
-										<h3>Projects</h3>
-										<p>A collection of my software projects</p>
-									</a>
-								</li>
-								<li>
-									<a href="blog/index.html">
-										<h3>Blog</h3>
-										<p>IT / Technical blog posts</p>
-									</a>
-								</li>
-								<li>
-									<a href="links.html">
-										<h3>Links</h3>
-										<p>Links to other things</p>
-									</a>
-								</li>
-								<li>
-									<a href="about.html">
-										<h3>About Me</h3>
-										<p>...</p>
-									</a>
-								</li>
-							</ul>
-						</section>
-
-						<!-- Actions -->
-							<section>
-								<ul class="actions stacked">
-									<li><a href="#" class="button large fit">Log In</a></li>
-								</ul>
-							</section>
-
-					</section>
-
+	<?php include 'menu_template.php';?>
+	
 				<!-- Main -->
 					<div id="main">
 
